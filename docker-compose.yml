@@ -1,0 +1,5 @@
+services:
+  pve-cluster:
+    build: .
+    ports:
+      - 8081:80
