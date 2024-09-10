@@ -21,4 +21,4 @@ source = "from-dhcp"
 
 [disk-setup]
 filesystem = "ext4"
-filter.ID_BUS = "usb"
+disk_list = ["nvme0n1"]
